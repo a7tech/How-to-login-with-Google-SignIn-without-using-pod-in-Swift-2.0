@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF139E31C72F45D001A7023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF139E21C72F45D001A7023 /* AppDelegate.swift */; };
+		8AF139E51C72F45D001A7023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF139E41C72F45D001A7023 /* ViewController.swift */; };
+		8AF139E81C72F45E001A7023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF139E61C72F45E001A7023 /* Main.storyboard */; };
+		8AF139EA1C72F45E001A7023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF139E91C72F45E001A7023 /* Assets.xcassets */; };
+		8AF139ED1C72F45E001A7023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF139EB1C72F45E001A7023 /* LaunchScreen.storyboard */; };
+		8AF139F81C72F45E001A7023 /* GoogleSignInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF139F71C72F45E001A7023 /* GoogleSignInSwiftUITests.swift */; };
+		8AF13A041C72F552001A7023 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A021C72F552001A7023 /* GoogleSignIn.framework */; };
+		8AF13A051C72F552001A7023 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AF13A031C72F552001A7023 /* GoogleSignIn.bundle */; };
+		8AF13A0B1C72F61D001A7023 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF13A0A1C72F61D001A7023 /* logo.png */; };
+		8AF13A0E1C72FAC9001A7023 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A0D1C72FAC9001A7023 /* SystemConfiguration.framework */; };
+		8AF13A101C72FAD3001A7023 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A0F1C72FAD3001A7023 /* MessageUI.framework */; };
+		8AF13A121C72FAE0001A7023 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A111C72FAE0001A7023 /* CoreMotion.framework */; };
+		8AF13A141C72FAE7001A7023 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A131C72FAE7001A7023 /* CoreLocation.framework */; };
+		8AF13A161C72FAFA001A7023 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A151C72FAFA001A7023 /* AssetsLibrary.framework */; };
+		8AF13A181C72FB0D001A7023 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A171C72FB0D001A7023 /* AddressBook.framework */; };
+		8AF13A1A1C72FB23001A7023 /* libcurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A191C72FB23001A7023 /* libcurses.tbd */; };
+		8AF13A1C1C72FB2C001A7023 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A1B1C72FB2C001A7023 /* libz.tbd */; };
+		8AF13A1E1C72FBBB001A7023 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF13A1D1C72FBBB001A7023 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF139F41C72F45E001A7023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF139D71C72F45D001A7023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF139DE1C72F45D001A7023;
+			remoteInfo = GoogleSignInSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF139DF1C72F45D001A7023 /* GoogleSignInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF139E21C72F45D001A7023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AF139E41C72F45D001A7023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AF139E71C72F45E001A7023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AF139E91C72F45E001A7023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AF139EC1C72F45E001A7023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AF139EE1C72F45E001A7023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF139F31C72F45E001A7023 /* GoogleSignInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF139F71C72F45E001A7023 /* GoogleSignInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInSwiftUITests.swift; sourceTree = "<group>"; };
+		8AF139F91C72F45E001A7023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF13A021C72F552001A7023 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = GoogleSignInSwift/GoogleSignIn.framework; sourceTree = "<group>"; };
+		8AF13A031C72F552001A7023 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = GoogleSignInSwift/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		8AF13A061C72F56F001A7023 /* GoogleSignInSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleSignInSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AF13A0A1C72F61D001A7023 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8AF13A0D1C72FAC9001A7023 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8AF13A0F1C72FAD3001A7023 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8AF13A111C72FAE0001A7023 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8AF13A131C72FAE7001A7023 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8AF13A151C72FAFA001A7023 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8AF13A171C72FB0D001A7023 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8AF13A191C72FB23001A7023 /* libcurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
+		8AF13A1B1C72FB2C001A7023 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8AF13A1D1C72FBBB001A7023 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF139DC1C72F45D001A7023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF13A1E1C72FBBB001A7023 /* StoreKit.framework in Frameworks */,
+				8AF13A1C1C72FB2C001A7023 /* libz.tbd in Frameworks */,
+				8AF13A1A1C72FB23001A7023 /* libcurses.tbd in Frameworks */,
+				8AF13A181C72FB0D001A7023 /* AddressBook.framework in Frameworks */,
+				8AF13A161C72FAFA001A7023 /* AssetsLibrary.framework in Frameworks */,
+				8AF13A141C72FAE7001A7023 /* CoreLocation.framework in Frameworks */,
+				8AF13A121C72FAE0001A7023 /* CoreMotion.framework in Frameworks */,
+				8AF13A101C72FAD3001A7023 /* MessageUI.framework in Frameworks */,
+				8AF13A0E1C72FAC9001A7023 /* SystemConfiguration.framework in Frameworks */,
+				8AF13A041C72F552001A7023 /* GoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF139F01C72F45E001A7023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF139D61C72F45D001A7023 = {
+			isa = PBXGroup;
+			children = (
+				8AF13A0C1C72FAB1001A7023 /* Framework */,
+				8AF139E11C72F45D001A7023 /* GoogleSignInSwift */,
+				8AF139F61C72F45E001A7023 /* GoogleSignInSwiftUITests */,
+				8AF139E01C72F45D001A7023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF139E01C72F45D001A7023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF139DF1C72F45D001A7023 /* GoogleSignInSwift.app */,
+				8AF139F31C72F45E001A7023 /* GoogleSignInSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF139E11C72F45D001A7023 /* GoogleSignInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8AF139E21C72F45D001A7023 /* AppDelegate.swift */,
+				8AF139E41C72F45D001A7023 /* ViewController.swift */,
+				8AF139E61C72F45E001A7023 /* Main.storyboard */,
+				8AF139E91C72F45E001A7023 /* Assets.xcassets */,
+				8AF139EB1C72F45E001A7023 /* LaunchScreen.storyboard */,
+				8AF139EE1C72F45E001A7023 /* Info.plist */,
+				8AF13A0A1C72F61D001A7023 /* logo.png */,
+				8AF13A061C72F56F001A7023 /* GoogleSignInSwift-Bridging-Header.h */,
+			);
+			path = GoogleSignInSwift;
+			sourceTree = "<group>";
+		};
+		8AF139F61C72F45E001A7023 /* GoogleSignInSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF139F71C72F45E001A7023 /* GoogleSignInSwiftUITests.swift */,
+				8AF139F91C72F45E001A7023 /* Info.plist */,
+			);
+			path = GoogleSignInSwiftUITests;
+			sourceTree = "<group>";
+		};
+		8AF13A0C1C72FAB1001A7023 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8AF13A031C72F552001A7023 /* GoogleSignIn.bundle */,
+				8AF13A171C72FB0D001A7023 /* AddressBook.framework */,
+				8AF13A151C72FAFA001A7023 /* AssetsLibrary.framework */,
+				8AF13A131C72FAE7001A7023 /* CoreLocation.framework */,
+				8AF13A111C72FAE0001A7023 /* CoreMotion.framework */,
+				8AF13A021C72F552001A7023 /* GoogleSignIn.framework */,
+				8AF13A0F1C72FAD3001A7023 /* MessageUI.framework */,
+				8AF13A1D1C72FBBB001A7023 /* StoreKit.framework */,
+				8AF13A0D1C72FAC9001A7023 /* SystemConfiguration.framework */,
+				8AF13A191C72FB23001A7023 /* libcurses.tbd */,
+				8AF13A1B1C72FB2C001A7023 /* libz.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF139DE1C72F45D001A7023 /* GoogleSignInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF139FC1C72F45E001A7023 /* Build configuration list for PBXNativeTarget "GoogleSignInSwift" */;
+			buildPhases = (
+				8AF139DB1C72F45D001A7023 /* Sources */,
+				8AF139DC1C72F45D001A7023 /* Frameworks */,
+				8AF139DD1C72F45D001A7023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSignInSwift;
+			productName = GoogleSignInSwift;
+			productReference = 8AF139DF1C72F45D001A7023 /* GoogleSignInSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AF139F21C72F45E001A7023 /* GoogleSignInSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF139FF1C72F45E001A7023 /* Build configuration list for PBXNativeTarget "GoogleSignInSwiftUITests" */;
+			buildPhases = (
+				8AF139EF1C72F45E001A7023 /* Sources */,
+				8AF139F01C72F45E001A7023 /* Frameworks */,
+				8AF139F11C72F45E001A7023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF139F51C72F45E001A7023 /* PBXTargetDependency */,
+			);
+			name = GoogleSignInSwiftUITests;
+			productName = GoogleSignInSwiftUITests;
+			productReference = 8AF139F31C72F45E001A7023 /* GoogleSignInSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF139D71C72F45D001A7023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Inwizards;
+				TargetAttributes = {
+					8AF139DE1C72F45D001A7023 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8AF139F21C72F45E001A7023 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8AF139DE1C72F45D001A7023;
+					};
+				};
+			};
+			buildConfigurationList = 8AF139DA1C72F45D001A7023 /* Build configuration list for PBXProject "GoogleSignInSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AF139D61C72F45D001A7023;
+			productRefGroup = 8AF139E01C72F45D001A7023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF139DE1C72F45D001A7023 /* GoogleSignInSwift */,
+				8AF139F21C72F45E001A7023 /* GoogleSignInSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF139DD1C72F45D001A7023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF13A051C72F552001A7023 /* GoogleSignIn.bundle in Resources */,
+				8AF13A0B1C72F61D001A7023 /* logo.png in Resources */,
+				8AF139ED1C72F45E001A7023 /* LaunchScreen.storyboard in Resources */,
+				8AF139EA1C72F45E001A7023 /* Assets.xcassets in Resources */,
+				8AF139E81C72F45E001A7023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF139F11C72F45E001A7023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF139DB1C72F45D001A7023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF139E51C72F45D001A7023 /* ViewController.swift in Sources */,
+				8AF139E31C72F45D001A7023 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF139EF1C72F45E001A7023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF139F81C72F45E001A7023 /* GoogleSignInSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AF139F51C72F45E001A7023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF139DE1C72F45D001A7023 /* GoogleSignInSwift */;
+			targetProxy = 8AF139F41C72F45E001A7023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AF139E61C72F45E001A7023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF139E71C72F45E001A7023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AF139EB1C72F45E001A7023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF139EC1C72F45E001A7023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AF139FA1C72F45E001A7023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AF139FB1C72F45E001A7023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF139FD1C72F45E001A7023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleSignInSwift",
+				);
+				INFOPLIST_FILE = GoogleSignInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.googlesignin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleSignInSwift/GoogleSignInSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AF139FE1C72F45E001A7023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleSignInSwift",
+				);
+				INFOPLIST_FILE = GoogleSignInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.googlesignin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleSignInSwift/GoogleSignInSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8AF13A001C72F45E001A7023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleSignInSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.GoogleSignInSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleSignInSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8AF13A011C72F45E001A7023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleSignInSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inw.GoogleSignInSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleSignInSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF139DA1C72F45D001A7023 /* Build configuration list for PBXProject "GoogleSignInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF139FA1C72F45E001A7023 /* Debug */,
+				8AF139FB1C72F45E001A7023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF139FC1C72F45E001A7023 /* Build configuration list for PBXNativeTarget "GoogleSignInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF139FD1C72F45E001A7023 /* Debug */,
+				8AF139FE1C72F45E001A7023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF139FF1C72F45E001A7023 /* Build configuration list for PBXNativeTarget "GoogleSignInSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF13A001C72F45E001A7023 /* Debug */,
+				8AF13A011C72F45E001A7023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF139D71C72F45D001A7023 /* Project object */;
+}
